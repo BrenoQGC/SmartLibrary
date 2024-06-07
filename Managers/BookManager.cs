@@ -11,45 +11,27 @@ namespace SmartLibrary.Controllers
     {
         private List<Book> books = new List<Book>();
 
-        public void RegisterBook()
+        public void RegisterBook(string title, string author, string isnb, int publicationYear)
         {
-            var book = new Book();
+            var book = new Book(title, author, isnb, publicationYear);
 
-            Console.WriteLine("Digite o título do livro");
-            book.Title = Console.ReadLine();
-
-            Console.WriteLine("\nInsira o autor do livro");
-            book.Autor = Console.ReadLine();
-
-            Console.WriteLine("\nInsira o ISNB do livro");
-            book.ISBN = Console.ReadLine();
-
-            while (true)
-            {
-                try
-                {
-                    Console.WriteLine("\nInsira o ano de publicação do livro");
-                    book.PublicationYear = Convert.ToInt32(Console.ReadLine());
-                    books.Add(book);
-                    return;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Ano inválido");
-                }
-
-            }
+            //book.Title = title;
+            //book.Author = author;
+            //book.ISBN = isnb;
+            //book.PublicationYear = publicationYear;
+            
+            books.Add(book);
         }
         public void ShowAllBooks()
         {
             foreach (var b in books)
             {
+                Console.WriteLine();
                 Console.WriteLine("Id: " + b.Id);
                 Console.WriteLine("Título: " + b.Title);
-                Console.WriteLine("Autor: " + b.Autor);
+                Console.WriteLine("Autor: " + b.Author);
                 Console.WriteLine("Ano de Publicação: " + b.PublicationYear);
                 Console.WriteLine("ISNB: " + b.ISBN);
-                Console.WriteLine();
             }
         }
 
@@ -62,8 +44,9 @@ namespace SmartLibrary.Controllers
                 return;
             }
 
+            Console.WriteLine();
             Console.WriteLine("Título: " + book.Title);
-            Console.WriteLine("Autor: " + book.Autor);
+            Console.WriteLine("Autor: " + book.Author);
             Console.WriteLine("Ano de Publicação: " + book.PublicationYear);
             Console.WriteLine("ISNB: " + book.ISBN);
         }

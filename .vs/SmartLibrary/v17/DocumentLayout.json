@@ -26,29 +26,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookManager.cs",
-              "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
-              "RelativeDocumentMoniker": "Managers\\BookManager.cs",
-              "ToolTip": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
-              "RelativeToolTip": "Managers\\BookManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:17:56.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Entities\\Book.cs",
               "ToolTip": "D:\\Projetos\\SmartLibrary\\Entities\\Book.cs",
               "RelativeToolTip": "Entities\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T21:07:32.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T01:40:44.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
+              "RelativeDocumentMoniker": "Managers\\BookManager.cs",
+              "ToolTip": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
+              "RelativeToolTip": "Managers\\BookManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T23:17:56.261Z"
             },
             {
               "$type": "Document",
@@ -58,7 +56,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projetos\\SmartLibrary\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAiwFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T21:06:48.695Z",
               "EditorCaption": ""
