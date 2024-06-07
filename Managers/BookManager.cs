@@ -24,7 +24,8 @@ namespace SmartLibrary.Controllers
         }
         public void ShowAllBooks()
         {
-            foreach (var b in books)
+            var notRemovedBooks = books.Where(b => b.IsRemoved == false).ToList();
+            foreach (var b in notRemovedBooks)
             {
                 Console.WriteLine();
                 Console.WriteLine("Id: " + b.Id);

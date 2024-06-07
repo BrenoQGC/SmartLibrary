@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\SmartLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|d:\\projetos\\smartlibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|d:\\projetos\\smartlibrary\\managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|solutionrelative:managers\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|d:\\projetos\\smartlibrary\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|solutionrelative:entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|d:\\projetos\\smartlibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09320086-9EC1-4FC8-AAD1-89147C870D24}|SmartLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Entities\\Book.cs",
               "ToolTip": "D:\\Projetos\\SmartLibrary\\Entities\\Book.cs",
               "RelativeToolTip": "Entities\\Book.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T01:40:44.379Z"
+              "WhenOpened": "2024-06-07T01:40:44.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookManager.cs",
               "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
               "RelativeDocumentMoniker": "Managers\\BookManager.cs",
               "ToolTip": "D:\\Projetos\\SmartLibrary\\Managers\\BookManager.cs",
               "RelativeToolTip": "Managers\\BookManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC4AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:17:56.261Z"
+              "WhenOpened": "2024-06-06T23:17:56.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projetos\\SmartLibrary\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projetos\\SmartLibrary\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAiwFMAAAAJAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T21:06:48.695Z",
               "EditorCaption": ""
