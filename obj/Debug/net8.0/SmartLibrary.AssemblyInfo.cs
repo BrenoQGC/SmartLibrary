@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50004cc5d09847fe5df1d17bc2b8e7ff67db6cd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbf89591944a571444e0c0a9a7c6d99d27673372")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,8 @@ while (true)
     Console.WriteLine("1. Cadastrar um livro");
     Console.WriteLine("2. Consultar todos os livros");
     Console.WriteLine("3. Consultar um livro");
-    Console.WriteLine("4. Sair");
+    Console.WriteLine("4. Excluir um livro");
+    Console.WriteLine("5. Voltar");
     Console.WriteLine();
 
     var opt = Console.ReadLine();
@@ -28,10 +29,13 @@ while (true)
             break;
 
         case "3":
-            GetBookMenu(); 
+            GetBookMenu();
             break;
 
         case "4":
+            DeleteBookMenu();
+            break;
+        case "5":
             return;
 
         default:
@@ -75,15 +79,28 @@ while (true)
         {
             var id = Guid.Parse(Console.ReadLine());
             bookManager.GetBook(id);
-            
+
         }
         catch (Exception)
         {
             Console.WriteLine("Id digitado inválido");
-            
+
+        }
+        return;
+    }
+    void DeleteBookMenu()
+    {
+        Console.WriteLine("Insira o Id do livro que quer exluir");
+
+        try
+        {
+            var livroId = Guid.Parse(Console.ReadLine());
+            bookManager.DeleteBook(livroId);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Valor digitado é inválido");
         }
         return;
     }
 }
-
-

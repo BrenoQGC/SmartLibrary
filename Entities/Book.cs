@@ -8,11 +8,6 @@ namespace SmartLibrary.Entities
 {
     internal class Book
     {
-        //public Book()
-        //{
-        //    Id = Guid.NewGuid();
-        //    IsRemoved = false;
-        //}
         public Book(string title, string author, string isnb, int publicationYear)
         {
             Id = Guid.NewGuid();
@@ -28,5 +23,10 @@ namespace SmartLibrary.Entities
         public string ISBN { get; set; }
         public int PublicationYear { get; set; }
         public bool IsRemoved { get; set; }
+
+        public void RemoveBook()
+        {
+            IsRemoved = true;
+        }
     }
 }

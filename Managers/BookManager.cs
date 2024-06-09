@@ -14,17 +14,19 @@ namespace SmartLibrary.Controllers
         public void RegisterBook(string title, string author, string isnb, int publicationYear)
         {
             var book = new Book(title, author, isnb, publicationYear);
-
-            //book.Title = title;
-            //book.Author = author;
-            //book.ISBN = isnb;
-            //book.PublicationYear = publicationYear;
             
             books.Add(book);
         }
         public void ShowAllBooks()
         {
             var notRemovedBooks = books.Where(b => b.IsRemoved == false).ToList();
+
+            if (notRemovedBooks.Count == 0) 
+            {
+                Console.WriteLine("Nenhum livro encontrado!");
+                return; 
+            }
+
             foreach (var b in notRemovedBooks)
             {
                 Console.WriteLine();
@@ -41,7 +43,7 @@ namespace SmartLibrary.Controllers
             var book = books.FirstOrDefault(b => b.Id == id);
             if (book == null)
             {
-                Console.WriteLine("Livro não foi encontrado");
+                Console.WriteLine("Livro não foi encontrado!");
                 return;
             }
 
@@ -50,6 +52,19 @@ namespace SmartLibrary.Controllers
             Console.WriteLine("Autor: " + book.Author);
             Console.WriteLine("Ano de Publicação: " + book.PublicationYear);
             Console.WriteLine("ISNB: " + book.ISBN);
+        }
+
+        public void DeleteBook(Guid id)
+        {
+            var book = books.FirstOrDefault(x =>x.Id == id);
+            if (book == null)
+            {
+                Console.WriteLine("Livro não encontrado!");
+                return;
+            }
+            book.RemoveBook();
+            Console.WriteLine("Livro removido da coleção!");
+            return;
         }
 
     }
